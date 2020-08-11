@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .text{
+            margin: auto;
+            margin-top: 10%;
+            width: 60%;
+            padding: 10px;
+            
+        }
+
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inspiration Quote Gen</title>
 </head>
 <body>
-    <h1> <%= qt %></h1>
-    <h3> ---<%= au %></h3>
-<button onClick="window.location.reload()">Get another one</button>
+    <div class="text">
+        <h1> <%= qt %></h1>
+        <h3> --- <%= au %></h3><br>
+        <button id="1a" onclick="window.location.reload()">Get another one</button>
+    </div>
 </body>
 </html>

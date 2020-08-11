@@ -13,6 +13,9 @@ app.get('/',(req,res)=>{
         qt : quote.text,
         au : quote.author
     });
-})
+});
+
+
+
 
 app.listen(PORT, () => console.log("Initialized"));
